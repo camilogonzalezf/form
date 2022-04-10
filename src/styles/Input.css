@@ -6,6 +6,12 @@
   flex-direction: column;
 }
 
+.title {
+  font-weight: bolder;
+  font-size: 5rem;
+  color: rgb(209, 208, 208);
+}
+
 .hidden-input{
   display: none;
 }
@@ -63,6 +69,12 @@
   .App{
     height: 100vh;
     padding: 1rem 1rem;
+  }
+
+  .title {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: rgb(209, 208, 208);
   }
   .input-submit{
     width: 100%;

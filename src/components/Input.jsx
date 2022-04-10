@@ -59,7 +59,7 @@ const Input = ({element}) => {
 
    return (
         <div className={`question-input  ${numberQuestion===element.id?"show-input":"hidden-input"}`}>
-            <h1>{element.title}</h1>
+            <h1 className="title">{element.title}</h1>
             
             <div className="message">
               <p>{element.message}</p>
