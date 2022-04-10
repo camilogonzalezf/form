@@ -12,12 +12,18 @@ const Form = () => {
     const [width, setWidth] = useState( {width: "0"})
 
     useEffect(()=>{
-        const percent = (numberQuestion/(questions.length-1)*100).toString()+'%';
-        const obj = {
-                width: percent
-        }
+        
+        function updateWidth(){
+            const percent = (numberQuestion/(questions.length-1)*100).toString()+'%';
+            const obj = {
+                    width: percent
+            }
+
         setWidth(obj)
-    },[numberQuestion])
+        }
+
+        updateWidth()
+    },[numberQuestion, questions.length])
 
 
     return (
