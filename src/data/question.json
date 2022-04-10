@@ -1,0 +1,48 @@
+[
+    {
+        "id": 0,
+        "title": "Nombre completo",
+        "type": "text",
+        "name": "name",
+        "message": "*Campo Requerido"
+    },
+    {
+        "id": 1,
+        "title": "Fecha de Nacimiento",
+        "type": "date",
+        "name": "date",
+        "message": "*Campo Requerido"
+
+    },
+    {
+        "id": 2,
+        "title": "Email",
+        "type": "email",
+        "name": "email",
+        "message": "*Campo Requerido: Recuerde incluir el arroba ( @ ) y los puntos  ( . )"
+
+    },
+    {
+        "id": 3,
+        "title": "Ciudad",
+        "type": "text",
+        "name": "city",
+        "message": "*Campo Requerido"
+
+    },
+    {
+        "id": 4,
+        "title": "Celular",
+        "type": "phone",
+        "name": "phone",
+        "message": "*Campo Requerido: Recuerde incluir los 10 digitos su teléfono"
+    },
+    {
+        "id": 5,
+        "title": "Enviar Formulario",
+        "type": "submit",
+        "name": "submit",
+        "message": ""
+    }
+
+]

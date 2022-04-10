@@ -1,0 +1,71 @@
+.form{
+    width: 70%;
+    height: 70%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.bar{
+    width: 100%;
+    height: 4rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    margin-top: 3rem;
+    position: relative;
+  }
+
+  .word-progress{
+      position: absolute;
+      font-size: 2rem;
+      top: 0.8vw;
+      right: 2vw;
+  }
+
+  .progress{
+      background-color: rgb(140, 192, 140);
+      height: 100%;
+      border-radius: 3rem;
+      transition: all ease .5s;
+  }
+h1{
+    font-weight: bolder;
+    font-size: 5rem;
+    color: rgb(209, 208, 208);
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+@media (max-width: 460px) {
+
+    .form{
+        width: 100%;
+        height: 70%;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 2rem;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .word-progress{
+        font-size: 1.5rem;
+        top: 4vw;
+        right: 5vw;
+    }
+    
+}
