@@ -40,8 +40,8 @@ const Input = ({element}) => {
       }
 
       if(element.type==='phone'){ 
-        var expReg =  /^\d{10}$/; //El telefono celular tiene 10 digitos
-        if(expReg.test(event.target.value)){
+        var expTel =  /^\d{10}$/; //El telefono celular tiene 10 digitos
+        if(expTel.test(event.target.value)){
           isValidQuestions(true)
           let arr = answered;
           arr[numberQuestion] = true;
